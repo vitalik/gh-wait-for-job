@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-GH_TOKEN=$1
+export GH_TOKEN=$1
 JOB_NAME=$2
 
 # param 3 is minutes, we wait 10seconds between attemnts:
